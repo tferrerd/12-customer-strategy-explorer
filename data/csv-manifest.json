@@ -1,0 +1,110 @@
+{
+  "dataset": "UCI Online Retail",
+  "source_urls": [
+    "https://archive.ics.uci.edu/dataset/352/online+retail"
+  ],
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "selection": "Complete workbook observations from all sheets, preserving sheet/source order and split into CSV files below GitHub's file-size limit.",
+  "notes": "Attribution: Daqing Chen / UCI Machine Learning Repository. XLSX converted to CSV with source column names and values; datetimes use an ISO-like textual representation and empty cells remain empty. Cancellation/return records and missing customer identifiers are retained for the future data audit. These are recorded sales, not observations of unconstrained demand.",
+  "generated_at_utc": "2026-10-17T20:51:14.855960+00:00",
+  "files": [
+    {
+      "path": "data/raw/retail_sheet1_001.csv",
+      "rows": 100000,
+      "columns": [
+        "InvoiceNo",
+        "StockCode",
+        "Description",
+        "Quantity",
+        "InvoiceDate",
+        "UnitPrice",
+        "CustomerID",
+        "Country"
+      ],
+      "bytes": 8672626,
+      "sha256": "e9369582ace93e6ea28cd89b0f97838733b82f70ace895af6aafd8f5d50b1f08"
+    },
+    {
+      "path": "data/raw/retail_sheet1_002.csv",
+      "rows": 100000,
+      "columns": [
+        "InvoiceNo",
+        "StockCode",
+        "Description",
+        "Quantity",
+        "InvoiceDate",
+        "UnitPrice",
+        "CustomerID",
+        "Country"
+      ],
+      "bytes": 8698948,
+      "sha256": "2dda011a3a2895dade4277030de111ae72c53c9097da699f392f74a6f8be3e86"
+    },
+    {
+      "path": "data/raw/retail_sheet1_003.csv",
+      "rows": 100000,
+      "columns": [
+        "InvoiceNo",
+        "StockCode",
+        "Description",
+        "Quantity",
+        "InvoiceDate",
+        "UnitPrice",
+        "CustomerID",
+        "Country"
+      ],
+      "bytes": 8671075,
+      "sha256": "f9e55632eb28dc2eec9b5756656275e8c035cee362de9f2a7ffd6799a2707be7"
+    },
+    {
+      "path": "data/raw/retail_sheet1_004.csv",
+      "rows": 100000,
+      "columns": [
+        "InvoiceNo",
+        "StockCode",
+        "Description",
+        "Quantity",
+        "InvoiceDate",
+        "UnitPrice",
+        "CustomerID",
+        "Country"
+      ],
+      "bytes": 8742785,
+      "sha256": "da1a01c91b80fc4ec0dd501558f92420e7a8ab61d767bf7c468d624b14168a85"
+    },
+    {
+      "path": "data/raw/retail_sheet1_005.csv",
+      "rows": 100000,
+      "columns": [
+        "InvoiceNo",
+        "StockCode",
+        "Description",
+        "Quantity",
+        "InvoiceDate",
+        "UnitPrice",
+        "CustomerID",
+        "Country"
+      ],
+      "bytes": 8775544,
+      "sha256": "9c8778c8a62fc23475d27f5f70ab0b81b530c328c9dc776aab0d19604955bff3"
+    },
+    {
+      "path": "data/raw/retail_sheet1_006.csv",
+      "rows": 41909,
+      "columns": [
+        "InvoiceNo",
+        "StockCode",
+        "Description",
+        "Quantity",
+        "InvoiceDate",
+        "UnitPrice",
+        "CustomerID",
+        "Country"
+      ],
+      "bytes": 3656494,
+      "sha256": "7f8804a0b8d26b38437bdf54b6380f91295ccac8d6fcb020c35c7d8a257f673e"
+    }
+  ],
+  "assets": []
+}
